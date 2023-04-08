@@ -2,7 +2,7 @@ import string
 
 
 f=open('SMSSpamCollection.txt' , 'r')
-flag=10
+
 
 vocab={}
 spamcount=0
@@ -47,12 +47,7 @@ for i in f:
             else:
                 ham_dict[word]=1
          
-    
-        
-
-    flag+=1
-    if flag==10:
-        break
+   
 
 
 Pspam=spamcount/(spamcount+hamcount)
