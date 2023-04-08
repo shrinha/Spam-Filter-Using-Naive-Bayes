@@ -60,3 +60,13 @@ The corpus has been collected by Tiago Agostinho de Almeida (http://www.dt.fee.u
 
 We would like to thank Dr. Min-Yen Kan (http://www.comp.nus.edu.sg/~kanmy/) and his team for making the NUS SMS Corpus available. See: http://www.comp.nus.edu.sg/~rpnlpir/downloads/corpora/smsCorpus/. He is currently collecting a bigger SMS corpus at: http://wing.comp.nus.edu.sg:8080/SMSCorpus/
 
+## Code
+
+The script reads the dataset store in SmSSpamCollection.txt and conditions the words by removing unnecessary characters and symbols
+https://github.com/shrinha/Spam-Filter-Using-Naive-Bayes/blob/99f222eb2c10c314057f1558d6f2192b1ac2fb0e/Naive%20Bayes%20Spam%20Filter.py#L17-L20
+
+The input message that has to be predicted is stored in the message variable
+https://github.com/shrinha/Spam-Filter-Using-Naive-Bayes/blob/99f222eb2c10c314057f1558d6f2192b1ac2fb0e/Naive%20Bayes%20Spam%20Filter.py#L84-L85
+
+The script calculates the probability of each word being a part of spam message and finally ppredicts whether the input message is a spam or ham
+https://github.com/shrinha/Spam-Filter-Using-Naive-Bayes/blob/99f222eb2c10c314057f1558d6f2192b1ac2fb0e/Naive%20Bayes%20Spam%20Filter.py#L91
