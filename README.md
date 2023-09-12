@@ -1,6 +1,7 @@
 # Spam-Filter-Using-Naive-Bayes
 A spam filtering based on Naive Bayes classifier with add-one
-smoothing to avoid zero counts
+smoothing to avoid zero counts 
+The same has has been deployed on streamit and can be found here: https://spam-filter-using-naive-bayes-predictor.streamlit.app/
 ## Description
 This was done as a part of Assignment 7 under the course CS250 : Artificial Intellgence Lab for Spring 2023 Semester
 ## Problem
@@ -70,3 +71,7 @@ https://github.com/shrinha/Spam-Filter-Using-Naive-Bayes/blob/99f222eb2c10c31405
 
 The script calculates the probability of each word being a part of spam message and finally ppredicts whether the input message is a spam or ham
 https://github.com/shrinha/Spam-Filter-Using-Naive-Bayes/blob/99f222eb2c10c314057f1558d6f2192b1ac2fb0e/Naive%20Bayes%20Spam%20Filter.py#L91
+
+## Colaboratory
+
+The ipynb file has been provided to show the building of the model which has been later trained. The trained model is pickled and used in app.py for deployment on stremlit
