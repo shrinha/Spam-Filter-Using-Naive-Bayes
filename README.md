@@ -1,11 +1,10 @@
 # Spam-Filter-Using-Naive-Bayes
 A spam filtering based on Naive Bayes classifier with add-one
 smoothing to avoid zero counts 
-The same has been deployed on streamit and can be found here: https://spam-filter-using-naive-bayes-predictor.streamlit.app/
-## Description
-This was done as a part of Assignment 7 under the course CS250: Artificial Intelligence Lab for Spring 2023 Semester
+The same has been deployed on Streamit and can be found here: https://spam-filter-using-naive-bayes-predictor.streamlit.app/
+
 ## Problem
-Designing a spam filtering based on Naive Bayes classifier. You have to implement for both multinomial and multivariate Naive Bayes classifier versions. To avoid zero counts, make sure you also implement the add-one smoothing.
+Designing a spam filtering based on Naive Bayes classifier and deploying it for demo. You have to implement for both multinomial and multivariate Naive Bayes classifier versions. To avoid zero counts, make sure you also implement the add-one smoothing.
 ## Dataset
 The SMS Spam Collection v.1 (hereafter the corpus) is a set of SMS-tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged according to being ham (legitimate) or spam. 
 
